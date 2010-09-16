@@ -14,6 +14,13 @@ DESCRIPTION
     Piglet is built on top of the PSGI standard, which means it works well
     with most of PSGI supported web servers and Plack.
 
+DEPENDENCIES
+    Building and using Piglet requires the following modules:
+
+    Module::Install, Module::Install::ReadmeFromPod,
+    Module::Install::Repository, Data::Section::Simple, Plack 0.99 or
+    higher, Router::Simple 0.05 or higher and Sub::Exporter.
+
 MOTIVATIONS
     Rack is sexy and WSGI is cool. So is PSGI.
 
